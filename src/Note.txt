@@ -1,0 +1,107 @@
+Course: 
+Kategorikal (ubah dari numerikal, biar ga diubah oleh Q1 Q3 atau scaling)
+Penanganan missing value dengan cara diisi modus dari atribut tersebut. atau modus dengan atribut yang sama kolom "Target" nya
+
+Yang nilai continues atau pakai outliers hanya/scaling:
+- Previous qualification (grade)
+- 
+
+
+Handle outliers:
+Marital status -> kategorikal (tetapkan range 1-6, ketika ada data test yg melebihi dari range itu. Set sesuai modus yaitu 1)
+Application mode -> kategorikal (tetapkan range 1-53, set sesuai modus. ada 1 nilai 57 di data train, jadi anggap aja outlier)
+Application order -> kategorikal (tetapkan range 1-6, set sesuai modus)
+Course -> Kategorikal (set sesuai modus)
+Daytime/evening -> Kategorikal (0 - 1)
+Prev qualification -> Continous (tetapkan range 1-43, set sesuai modus)
+Prev qualification (grade) -> Continous (tetapkan range 100 - 200)
+Nationality -> Kategorikal (set ke modus jika data test tidak ada sesuai di train)
+Mother's qualification -> continuous (range 1 - 44, set ke modus)
+Father's qualification -> continouse (range 1 - 44, set ke modus)
+Mother's occupation -> continous (range 0 - 200, set ke modus)
+Father's occupation -> continous (range 0 - 200, set ke modus)
+Admission grade -> continous
+Displaced -> kategorikal
+Educational Special needs -> kategorikal
+Debtor -> kategorikal
+Tuition fees up to date -> kategorikal
+Gender -> kategorikal
+Scholarship holder -> kategorikal
+Age at enrollment -> continous
+International -> kategorikal
+
+Curricular units 1st sem (credited) ->
+Curricular units 1st sem (enrolled) -> 
+Curricular units 1st sem (evaluations) -> 
+Curricular units 1st sem (approved) ->
+Curricular units 1st sem (grade) ->
+Curricular units 1st sem (without evaluations) ->
+
+Curricular units 2nd sem (credited) ->
+Curricular units 2nd sem (enrolled) -> 
+Curricular units 2nd sem (evaluations) -> 
+Curricular units 2nd sem (approved) ->
+Curricular units 2nd sem (grade) ->
+Curricular units 2nd sem (without evaluations) ->
+
+
+
+
+
+Target Encoding
+Setiap kategori diubah menjadi rata-rata targetnya.
+
+
+Note untuk nanti aja:
+- App Order ntar dicoba pakai kategorikal
+- Daytime/evening coba di drop
+- 
+
+
+Jika freq < 
+
+
+Marital status -> kategorikal
+Application mode -> kategorikal
+Application order -> kategorikal
+Course -> Kategorikal
+Daytime/evening -> Kategorikal (0 - 1)
+Prev qualification -> Kategorikal
+Prev qualification (grade) -> Continous
+Nationality -> Kategorikal
+Mother's qualification -> Kategorikal
+Father's qualification -> kategorikal
+Mother's occupation -> kategorikal 
+Father's occupation -> kategorikal
+Admission grade -> continous
+Displaced -> kategorikal
+Educational Special needs -> kategorikal
+Debtor -> kategorikal
+Tuition fees up to date -> kategorikal
+Gender -> kategorikal
+Scholarship holder -> kategorikal
+Age at enrollment -> continous
+International -> kategorikal
+
+
+Semua di bawah ini Continous (nilai memang bisa 0)
+Curricular units 1st sem (credited) ->
+Curricular units 1st sem (enrolled) -> 
+Curricular units 1st sem (evaluations) -> 
+Curricular units 1st sem (approved) ->
+Curricular units 1st sem (grade) ->
+Curricular units 1st sem (without evaluations) ->
+
+Curricular units 2nd sem (credited) ->
+Curricular units 2nd sem (enrolled) -> 
+Curricular units 2nd sem (evaluations) -> 
+Curricular units 2nd sem (approved) ->
+Curricular units 2nd sem (grade) ->
+Curricular units 2nd sem (without evaluations) ->
+
+Unemployment rate -> continous
+Inflation rate -> continous
+GDP -> continous
+
+Target (Dropout / Enrolled /
+Graduate) -> kategorikal
