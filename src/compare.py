@@ -98,7 +98,7 @@ def compare_csv_files(file1_path, file2_path):
 
 if __name__ == "__main__":
     # Hardcoded reference file
-    reference_file = "../submission/submission_logreg_20251203_220721.csv"
+    reference_file = "../submission/submission_hierarchical_20251204_180209.csv"
     
     # Get the latest file from submission folder
     submission_folder = "../submission"
