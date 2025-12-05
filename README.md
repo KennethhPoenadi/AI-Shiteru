@@ -42,17 +42,16 @@ AI-Shiteru/
 │   ├── test.csv               # Test dataset
 │   └── sample_submission.csv  # Sample submission format
 ├── src/
-│   ├── notebook.ipynb         # Main notebook (comprehensive)
-│   ├── notebooklogreg.ipynb   # Logistic Regression focused notebook
-│   ├── compare.py             # CSV comparison tool
-│   ├── error_analysis.py      # Error analysis utilities
-│   └── svm.py                 # SVM implementation
+│   ├── DTLFeatureHierarchical.ipynb  # Decision Tree Learning implementation
+│   ├── notebooklogreg.ipynb          # Logistic Regression implementation
+│   ├── notebooksvm.ipynb             # SVM implementation
+│   └── compare.py                    # CSV comparison tool
 ├── submission/
 │   └── submission_*.csv       # Generated submission files
 ├── models/
-│   └── model_*.pkl            # Saved models
+│   └── model_*.pkl            # Saved trained models
 ├── doc/
-│   └── report.pdf             # Project report
+│   └── Laporan_AIShiteru.pdf             # Project report
 ├── README.md
 └── LICENSE
 ```
